@@ -1,0 +1,152 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5cm;
+}
+
+p {
+    margin: 0px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+}
+
+@page {
+    size: A4;
+    margin: 0px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    font: 10px "Times New Roman", Helvetica, Arial, sans-serif;
+    border-collapse: collapse;
+    font-weight: 500;
+}
+
+thead > tr,
+tfoot > tr {
+    background-color: rgb(250, 185, 161);
+}
+
+tr {
+    height: auto;
+}
+
+td {
+    padding-left: 2px;
+}
+
+th,
+td {
+    border: 1px solid rgb(0, 0, 0);
+    padding-right: 3px;
+}
+
+.heroV {
+    width: auto;
+    height: auto;
+}
+
+.informasi {
+    height: auto;
+    display: flex;
+    align-items: start;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.infodua,
+.infosatu {
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+}
+
+.infodua p,
+.infosatu p {
+    display: flex;
+    font-weight: bold;
+    font-family: "Times New Roan", Helvetica, Arial, sans-serif;
+    width: auto;
+    font-size: 8px;
+    justify-content: start;
+    align-items: center;
+}
+
+.rowdot,
+.rowinfo {
+    margin-right: 10px;
+}
+
+.rowinfo,
+.rowdot,
+.rowinfodata {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.muatan-lokal {
+    margin-left: 1cm;
+
+    font: xx-small "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.twotable {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.ttd {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    margin-top: 10px;
+    height: auto;
+    font: "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.boxttd-kepsek,
+.boxttd {
+    height: 55px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.boxttd-kepsek {
+    height: 60px;
+}
+
+.walikelas {
+    width: 30%;
+}
+
+.kepalasekolah {
+    margin-top: 40px;
+    font: bold 10px "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.boxttd,
+.siapaIni {
+    font: bold 10px "Times New Roman", Helvetica, Arial, sans-serif;
+}
+
+.info-rapor {
+    font: bold "Times New Roman", Helvetica, Arial, sans-serif;
+    text-align: end;
+    font-size: normal;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+.walibox {
+    height: 45px;
+    display: flex;
+    align-items: end;
+}
